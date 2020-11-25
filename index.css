@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*body {
+  background-image: url('assets/WhatsApp\ Image\ 2020-11-24\ at\ 01.07.19.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 1041px;
+  max-width: 2133px;
+}**/
+
+#wallpaper {
+  background-image: url('assets/WhatsApp\ Image\ 2020-11-24\ at\ 01.07.19.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1041;
+  max-width: 2133px;
+}
+
+header {
+  max-width: 2133px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 112px;
+  border-bottom: 1px solid #e6dcdc1a;
+}
+
+header #imagem {
+  padding-top: 39px;
+  padding-left: 166px;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  justify-content: flex-end;
+  max-width: 1980px;
+}
+
+header img {
+  background-size: cover;
+  background: transparent;
+  max-width: 181px;
+  max-height: 35px;
+  left: 140px;
+  top: 39px;
+  cursor: pointer;
+}
+
+div.title {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.title h1 {
+  font: normal normal bold 67px/88px Roboto;
+  letter-spacing: 0px;
+  color: #e6dcdc;
+  margin-bottom: 50px;
+  max-width: 812px;
+}
+
+#planos {
+  max-width: 1980px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 127px;
+}
+
+section img {
+  cursor: pointer;
+  max-width: 398px;
+  height: 200px;
+  background: transparent;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+section.rodape .fume {
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.85;
+  backdrop-filter: blur(55px);
+  -webkit-backdrop-filter: blur(55px);
+  height: 127px;
+  height: 127px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e6dcdc1a;
+}
+
+section p {
+  text-align: center;
+  font: normal normal normal 21px/25px Roboto;
+  letter-spacing: 0px;
+  color: #e6dcdc;
+}
+
+@media (max-width: 1673px) {
+  #wallpaper {
+    position: absolute;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  #planos img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #planos img {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  div.title h1 {
+    font: normal normal bold 55px/80px Roboto;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  div.title h1 {
+    font: normal normal bold 50px/80px Roboto;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  body {
+    display: block;
+  }
+}
